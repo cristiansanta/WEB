@@ -1,0 +1,193 @@
+#IP {
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 40px;
+  /*Separar las secciones*/
+  background: url("/web_informaticPro/img/codeit.avif") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  /* Añadir para posicionar los elementos dentro de la sección */
+  padding: 20px;
+  /* Añadir un espaciado interno para los elementos dentro de la sección */
+}
+
+#IP .container {
+  max-width: 1000px;
+  padding: 20px;
+  background-color: rgba(184, 182, 182, 0.452);
+  border-radius: 10px;
+}
+
+#IP a {
+  color: red;
+  background-color: rgba(247, 243, 243, 0.74);
+}
+
+#IP strong {
+  color: #ffffff;
+}
+
+#I {
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 40px;
+  /*Separar las secciones*/
+  background: url("/web_informaticPro/img/i.gif") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  /* Añadir para posicionar los elementos dentro de la sección */
+  padding: 20px;
+  /* Añadir un espaciado interno para los elementos dentro de la sección */
+}
+
+#I .container {
+  max-width: 1000px;
+  padding: 20px;
+  background-color: rgba(184, 182, 182, 0.452);
+  border-radius: 10px;
+}
+
+#I a {
+  color: red;
+}
+
+#I strong {
+  color: #ffffff;
+}
+
+#VI {
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 40px;
+  /*Separar las secciones*/
+  background: url("/web_informaticPro/img/VI.webp") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  /* Añadir para posicionar los elementos dentro de la sección */
+  padding: 20px;
+  /* Añadir un espaciado interno para los elementos dentro de la sección */
+}
+
+#VI .container {
+  max-width: 1000px;
+  padding: 20px;
+  background-color: rgba(184, 182, 182, 0.452);
+  border-radius: 10px;
+}
+
+#VI a {
+  color: red;
+}
+
+#VI strong {
+  color: #ffffff;
+}
+
+#VP {
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 40px;
+  /*Separar las secciones*/
+  background: url("/web_informaticPro/img/VP.jpg") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  /* Añadir para posicionar los elementos dentro de la sección */
+  padding: 20px;
+  /* Añadir un espaciado interno para los elementos dentro de la sección */
+}
+
+#VP .container {
+  max-width: 1000px;
+  padding: 20px;
+  background-color: rgba(184, 182, 182, 0.329);
+  border-radius: 10px;
+}
+
+#VP a {
+  color: red;
+}
+
+#VP strong {
+  color: #ffffff;
+}
+
+#P {
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 40px;
+  /*Separar las secciones*/
+  background: url("/web_informaticPro/img/P.gif") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  /* Añadir para posicionar los elementos dentro de la sección */
+  padding: 20px;
+  /* Añadir un espaciado interno para los elementos dentro de la sección */
+}
+
+#P .container {
+  max-width: 1000px;
+  padding: 20px;
+  background-color: rgba(53, 51, 51, 0.452);
+  border-radius: 10px;
+}
+
+#P h4,
+#P h2,
+#P strong,
+#P a,
+#P p {
+  color: #ffffff;
+}
+
+.INF .fuente {
+  position: absolute;
+  /* Posicionar la fuente en la esquina inferior */
+  bottom: 10px;
+  left: 10px;
+  color: #000000;
+  font-size: 14px;
+}
+
+#IP a.btn.cta-btn {
+  color: #fff;
+  background-color: #004fe2;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#IP a.btn.cta-btn:hover {
+  background-color: #d30415;
+}
+
+#IP a.btn.cta-btn12 {
+  color: #fff;
+  background-color: #004fe2;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#IP a.btn.cta-btn12:hover {
+  background-color: #d30415;
+}

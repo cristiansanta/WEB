@@ -1,0 +1,326 @@
+.ESA {
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 40px;
+  background: url("/web_leng/img/languages.jpg") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ESA .container {
+  max-width: 639px;
+  padding: 20px;
+  background-color: rgba(184, 182, 182, 0.712);
+  border-radius: 10px;
+}
+.ESA a.btn.cta-btn {
+  color: #fff;
+  background-color: #0414f7;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px; /*Mover los botones de ver mas*/
+  height: 15px;
+}
+
+.ESA a.btn.cta-btn:hover {
+  background-color: #c153f5;
+}
+/*Para php*/
+.ESA a.btn.cta-btn2 {
+  color: #fff;
+  background-color: #0414f7;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 35px; /*Mover los botones de ver mas*/
+  height: 15px;
+}
+.ESA a.btn.cta-btn2:hover {
+  background-color: #c153f5;
+}
+/*Mover solamente la imagen de PHP.png*/
+.horizontal-list li:nth-child(5) img {
+  margin-top: 50px;
+}
+/*Mover boton c++ ver mas*/
+.ESA a.btn.cta-btn3 {
+  color: #fff;
+  background-color: #0414f7;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 8px; /*Mover los botones de ver mas*/
+  height: 15px;
+}
+.ESA a.btn.cta-btn3:hover {
+  background-color: #c153f5;
+}
+/*SECCIÓN LENGUAJES*/
+.horizontal-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  overflow-x: scroll;
+  width: 100%;
+  scroll-snap-type: x mandatory;
+}
+
+.horizontal-list li {
+  margin: 40px; /*Ajustar la cantidad de imagenes que se visualizarán en el slider*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+  padding: 0 10px;
+
+  width: 100px; /* Ancho deseado */
+  height: 200px; /* Alto deseado */
+  background-color: #f1f1f1; /* Color de fondo deseado */
+  border-radius: 10px;
+}
+
+.horizontal-list img {
+  width: 100px; /* Ajusta el ancho deseado */
+  height: auto; /* Ajusta la altura proporcionalmente */
+  margin-top: 18px; /*Mover las imagenes*/
+}
+
+.horizontal-list li span {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 0px;
+  width: 120px; /* Ancho deseado */
+  height: 25px;
+  background-color: #eb06f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+/**/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.horizontal-list h2 {
+  margin-top: 130px;
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.slider-controls button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-top: -192px; /*Posicionar < > de desplazamiento*/
+}
+
+.slider-controls button#prevButton {
+  margin-left: -20px;
+}
+
+.slider-controls button#nextButton {
+  margin-right: -20px;
+}
+#java {
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 40px; /*Separar las secciones*/
+  background: url("/web_leng/img/java.jpg") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative; /* Añadir para posicionar los elementos dentro de la sección */
+  padding: 20px; /* Añadir un espaciado interno para los elementos dentro de la sección */
+}
+#python {
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 40px; /*Separar las secciones*/
+  background: url("/web_leng/img/python.webp") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative; /* Añadir para posicionar los elementos dentro de la sección */
+  padding: 20px; /* Añadir un espaciado interno para los elementos dentro de la sección */
+}
+#python h4,
+#python h2,
+#python strong,
+#python a,
+#python p {
+  color: #ffffff;
+}
+#php {
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 40px; /*Separar las secciones*/
+  background: url("/web_leng/img/php.jpeg") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative; /* Añadir para posicionar los elementos dentro de la sección */
+  padding: 20px; /* Añadir un espaciado interno para los elementos dentro de la sección */
+}
+#php a,
+#php strong {
+  color: #ffffff;
+}
+#php h4,
+#php p {
+  background-color: rgba(184, 182, 182, 0.623);
+  padding: 10px;
+  border-radius: 5px;
+}
+#rust {
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 40px; /*Separar las secciones*/
+  background: url("/web_leng/img/rust_old.png") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative; /* Añadir para posicionar los elementos dentro de la sección */
+  padding: 20px; /* Añadir un espaciado interno para los elementos dentro de la sección */
+}
+
+#rust a,
+#rust strong {
+  color: #ffffff;
+}
+#rust h4,
+#rust p {
+  background-color: rgba(
+    184,
+    182,
+    182,
+    0.623
+  ); /*Background para el texto y titulo*/
+  padding: 10px;
+  border-radius: 5px;
+}
+#javascript {
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 40px; /*Separar las secciones*/
+  background: url("/web_leng/img/javascript.jpeg") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative; /* Añadir para posicionar los elementos dentro de la sección */
+  padding: 20px; /* Añadir un espaciado interno para los elementos dentro de la sección */
+}
+#javascript h4,
+#javascript h2,
+#javascript strong,
+#javascript a,
+#javascript p {
+  color: #ffffff;
+}
+#csharp {
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 40px; /*Separar las secciones*/
+  background: url("/web_leng/img/csharp.webp") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative; /* Añadir para posicionar los elementos dentro de la sección */
+  padding: 20px; /* Añadir un espaciado interno para los elementos dentro de la sección */
+}
+#csharp h4,
+#csharp h2,
+#csharp strong,
+#csharp a,
+#csharp p {
+  color: #ffffff;
+}
+#csharp h4,
+#csharp p {
+  background-color: rgba(190, 188, 188, 0.404);
+  padding: 10px;
+  border-radius: 5px;
+}
+#cplus {
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 40px; /*Separar las secciones*/
+  background: url("/web_leng/img/cplus.gif") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative; /* Añadir para posicionar los elementos dentro de la sección */
+  padding: 20px; /* Añadir un espaciado interno para los elementos dentro de la sección */
+}
+#cplus h4,
+#cplus p {
+  background-color: rgba(190, 188, 188, 0.404);
+  padding: 10px;
+  border-radius: 5px;
+}
+#cplus h2 {
+  color: red;
+}
+#cplus strong {
+  color: #ffffff;
+}
+/*Igual config*/
+.ALL h2 {
+  position: absolute; /* Posicionar el título en la esquina superior */
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #131111;
+  font-size: 40px;
+}
+
+.ALL p {
+  color: #000000;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.ALL h4,
+.ALL p {
+  text-align: left;
+  margin-left: -333px;
+}
+
+.ALL .fuente {
+  position: absolute; /* Posicionar la fuente en la esquina inferior */
+  bottom: 10px;
+  left: 10px;
+  color: #000000;
+  font-size: 14px;
+}
